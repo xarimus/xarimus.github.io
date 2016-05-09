@@ -1,3 +1,2 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/xarimus/pen/VagZdN.
-
- FreeCodeCamp.com Portfolio Page Challenge
+Known Issues:
+On mobile, the mousover/hover effect is persistent after clicking one of the nav-pill buttons.
