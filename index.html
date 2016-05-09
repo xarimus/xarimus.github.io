@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="140">
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar" id="navButton">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a id="navBrand" class="navbar-brand" href="#">xarimus</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavBar">
+        <ul class="nav nav-pills navbar-nav navLinks pull-right red">
+          <li class="active"><a class="navLink" href="#about">About</a></li>
+          <li><a class="navLink" href="#portfolio">Portfolio</a></li>
+          <li><a class="navLink" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <section id="about">
+      <div class="well">
+        <div class="row">
+          <div class="col-sm-5 col-xs-12">
+            <img width="300" class="img-responsive profile-pic center-block" src="http://s20.postimg.org/jxdhc0p65/aaron_snow.jpg">
+          </div>
+          <div class="col-sm-7">
+            <h1 class="text-center">Aaron Haskett</h1>
+            <h3 class="text-center">Hi, I'm new here.</h3>
+            <hr/>
+          </div>
+          <p style="margin: 0px 20px 0px 20px">
+            I've always had an interest in programming and web development but am only just now beginning to really explore that passion. My professional background is in Health Information Management and Healthcare Compliance and I'm very interested in finding areas
+            where these fields might intersect.
+          </p>
+        </div>
+              <hr/>
+          <p class="text-center">Some areas of particular interest to me:</p>
+          <ul class="listStyle text-center">
+            <li>Data Processing</li>
+            <li>String Manipulation</li>
+            <li>Algorithm Design</li>
+            <li>User Experience/Interface</li>
+            <li>Responsive Layouts</li>
+          </ul>
+        </div>
+        <!-- /.well -->
+    </section>
+    <section id="portfolio">
+      <div class="well">
+        <h1 class="text-center">My Work</h1>
+        <h3 class="text-center">Here are some of the things I've done so far</h3>
+        <h6 class="text-center">well... the one thing I've done so far anyway... but feel free to check it out all 6 times below!</h6>
+        <hr/>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <a href="http://xarimus.github.io/tribute"><h3 class="text-center">Jack Black Tribute Page</h3></a>
+            <img src="http://s20.postimg.org/c7z6k2t0t/portfolio1.jpg" alt="tribute page" class="img-responsive center-block">
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a href="http://xarimus.github.io/tribute"><h3 class="text-center">Jack Black Tribute Page</h3></a>
+            <img src="http://s20.postimg.org/c7z6k2t0t/portfolio1.jpg" alt="tribute page" class="img-responsive center-block">
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a href="http://xarimus.github.io/tribute"><h3 class="text-center">Jack Black Tribute Page</h3></a>
+            <img src="http://s20.postimg.org/c7z6k2t0t/portfolio1.jpg" alt="tribute page" class="img-responsive center-block">
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a href="http://xarimus.github.io/tribute"><h3 class="text-center">Jack Black Tribute Page</h3></a>
+            <img src="http://s20.postimg.org/c7z6k2t0t/portfolio1.jpg" alt="tribute page" class="img-responsive center-block">
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a href="http://xarimus.github.io/tribute"><h3 class="text-center">Jack Black Tribute Page</h3></a>
+            <img src="http://s20.postimg.org/c7z6k2t0t/portfolio1.jpg" alt="tribute page" class="img-responsive center-block">
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a href="http://xarimus.github.io/tribute"><h3 class="text-center">Jack Black Tribute Page</h3></a>
+            <img src="http://s20.postimg.org/c7z6k2t0t/portfolio1.jpg" alt="tribute page" class="img-responsive center-block">
+          </div>
+        </div>
+      </div>
+      <!-- /.well -->
+    </section>
+    <section id="contact">
+      <div class="well">
+        <h1 class="text-center">Let's Get in Touch</h1>
+        <h3 class="text-center">Send me a message or reach out to me on one of the social networks below</h3>
+        <div class="row">
+          <div class="col-xs-12">
+            <hr/>
+          </div>
+        </div>
+        <form action="https://formspree.io/xarimus@gmail.com" method="POST">
+          <div class="row">
+            <div class="col-sm-6">
+              <input class="form-control" type="text" placeholder="Name" name="From:" required>
+              <input class="form-control" type="email" placeholder="eMail Address" name="_replyto" required>
+              <input class="form-control" type="text" placeholder="Subject (optional)" name="_subject">
+              <textarea ID="msgBody" class="form-control" placeholder="Message" name="Body:" required></textarea>
+              <!-- replace "#" with custom redirect/thanks page <input type="hidden" name="_next" value="#"> -->
+              <input type="text" name="_gotcha" style="display:none">
+              <div class="col-xs-6">
+                <button class="btn btn-primary srBtnS btn-block" type="submit">Send <i class="fa fa-paper-plane"></i></button>
+              </div>
+              <div class="col-xs-6">
+                <button class="btn btn-danger srBtnC btn-block" type="reset">Reset <i class="fa fa-trash"></i></button>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="col-xs-6">
+                <a href="https://www.facebook.com/aaron.haskett">
+                  <h3 class="text-center"><i class="fa fa-facebook-square smiFB"></i></h3></a>
+              </div>
+              <div class="col-xs-6">
+                <a href="https://github.com/xarimus">
+                  <h3 class="text-center"><i class="fa fa-github-square smiGH"></i></h3></a>
+              </div>
+              <div class="col-xs-6">
+                <a href="https://twitter.com/xarimus">
+                  <h3 class="text-center"><i class="fa fa-twitter-square smiT"></i></h3></a>
+              </div>
+              <div class="col-xs-6">
+                <a href="https://www.freecodecamp.com/xarimus">
+                  <img src="https://pbs.twimg.com/profile_images/692531829287567360/ytP7U362.png" class="smiFCC center-block"></a>
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+        </form>
+      </div>
+      <!-- /.well -->
+    </section>
+  </div>
+  <h5 class="text-center">created by <a href="#about">xarimus</a></h5>
+</body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
