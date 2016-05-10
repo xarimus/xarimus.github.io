@@ -1,5 +1,5 @@
 
-}
+
 a {
   color: #262324;
 }
@@ -32,13 +32,9 @@ body {
   background-color: #00aaa6;
   position: relative;
 }
-@viewport {
-  width: 480px;
-}
 .well {
-  margin: 10px auto;
+  margin: 10px;
   max-width: 900px;
-  
 }
 :target:before {
   content: "";
