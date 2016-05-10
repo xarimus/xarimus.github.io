@@ -1,6 +1,6 @@
 @media only screen and (max-device-width: 480px) {
   body {
-    max-width = device-width;
+    max-width = 480;
   }
 }
 a {
