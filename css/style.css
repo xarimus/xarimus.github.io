@@ -1,5 +1,3 @@
-
-
 a {
   color: #262324;
 }
@@ -33,8 +31,9 @@ body {
   position: relative;
 }
 .well {
-  margin: 10px;
+  margin: 10px auto;
   max-width: 900px;
+  
 }
 :target:before {
   content: "";
