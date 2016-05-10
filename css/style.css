@@ -89,13 +89,9 @@ input[type=text] {
   height: 50px;
   margin-bottom: 10px;
 }
-.srBtnS {
+.srBtn {
   height: 50px;
-  margin-left: -15px;
-}
-.srBtnC {
-  height: 50px;
-  margin-left: 15px;
+  font-size: 20px;
 }
 #msgBody {
   height: 230px;
