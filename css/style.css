@@ -34,6 +34,7 @@ body {
   padding-top: 60px;
   background-color: #00aaa6;
   position: relative;
+  max-width: 480;
 }
 .well {
   margin: 10px auto;
