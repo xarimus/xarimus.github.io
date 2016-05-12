@@ -20,7 +20,7 @@ $(document).ready(function() {
     $.getJSON("http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?", function(data){
       var html = "<blockquote>" + data.quoteText;
       if (data.quoteAuthor != "") {
-        html += "<br><br><footer>" + data.quoteAuthor + "</footer>" +
+        html += "<br><br><footer>" + data.quoteAuthor + "</footer><br>" +
           "<a href='http://twitter.com/home?status=" +
           tweetSize(data.quoteText, data.quoteAuthor) +
           "'><i class='fa fa-twitter pull-left'></i><a>" +
@@ -32,7 +32,7 @@ $(document).ready(function() {
       else {
         html += "<br><br><footer>Author Unknown</footer></blockquote>";
       }
-      $(".message").html(html)
+      $(".message").html(html);
       $("#getQuote").html("New Quote");
       $("#quoteLink").attr("href", data.quoteLink);
       //http://twitter.com/home?status=Today is the tomorrow we worried about yesterday.  http://en.forismatic.com/6750845f01/ @forismatic
