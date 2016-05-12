@@ -21,12 +21,12 @@ $(document).ready(function() {
       var html = "<blockquote>" + data.quoteText;
       if (data.quoteAuthor != "") {
         html += "<br><br><footer>" + data.quoteAuthor + "</footer><br>" +
-          "<a href='http://twitter.com/home?status=" +
+          "<a target='blank' href='http://twitter.com/home?status=" +
           tweetSize(data.quoteText, data.quoteAuthor) +
           "'><i class='fa fa-twitter pull-left'></i><a>" +
-          "<a href='http://www.facebook.com/sharer.php?u=" + data.quoteLink +
+          "<a target='blank' href='http://www.facebook.com/sharer.php?u=" + data.quoteLink +
           "'><i class='fa fa-facebook pull-left'></i><a>" +
-          "<a href='//en.wikipedia.org/wiki/" + data.quoteAuthor +
+          "<a target='blank' href='//en.wikipedia.org/wiki/" + data.quoteAuthor +
           "'><i class='fa fa-wikipedia-w pull-left'></i><a></blockquote>";
       }
       else {
