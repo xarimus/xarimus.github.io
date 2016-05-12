@@ -30,7 +30,12 @@ $(document).ready(function() {
           "'><i class='fa fa-wikipedia-w pull-left'></i><a></blockquote>";
       }
       else {
-        html += "<br><br><footer>Author Unknown</footer></blockquote>";
+        html += "<br><br><footer>Author Unknown</footer><br>" +
+          "<a target='_blank' href='http://twitter.com/home?status=" +
+          tweetSize(data.quoteText, "Author Unknown") +
+          "'><i class='fa fa-twitter pull-left'></i><a>" +
+          "<a target='_blank' href='http://www.facebook.com/sharer.php?u=" + data.quoteLink +
+          "'><i class='fa fa-facebook pull-left'></i><a></blockquote>";
       }
       $(".message").html(html);
       $("#getQuote").html("New Quote");
