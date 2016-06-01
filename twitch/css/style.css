@@ -1,0 +1,134 @@
+html,
+body {
+  background: #00aaa6;
+}
+div ul {
+  list-style: none;
+}
+.logo {
+  height: 75px;
+  border-radius: 20%;
+  border: solid 5px transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.preview {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10%;
+  max-height: 125px;
+  max-width: 222px;
+}
+.jumbotron {
+  padding: 15px;
+  margin: 0;
+  background: #00aaa6;
+  color: #262324;
+}
+nav {
+  padding: 15px;
+  background: #262324;
+}
+nav * {
+  color: #00aaa6;
+  font-size: 20px;
+  margin-bottom: -3px;
+  border: none;
+}
+#userChannel {
+  height: 48px;
+  width: 200px;
+  font-size: 20px;
+}
+.vCenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+a li {
+  background: #DDD;
+  margin-left: -50px;
+  margin-right: -10px;
+  margin-top: 10px;
+}
+.test {
+  display: inline-block;
+}
+
+li.inactive div h4,
+li.inactive div p{
+  display: inline;
+}
+.twitchLink,
+.stream {
+  display: none;
+}
+.btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  background-color: transparent; 
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  background-color: #eceaeb;
+  color: #c80850;
+}
+a {
+  text-decoration: none;
+}
+a.channel {
+  display: none;
+}
+a li {
+  color: #eceaeb;
+  margin-left: -50px;
+  margin-right: -10px;
+  margin-top: 10px;
+}
+.online {
+  background: #5c8727;
+  color: #eceaeb;
+}
+.online:active,
+.online:hover {
+  background: #8dc83f;
+  color: #262324;
+}
+.offline {
+  background: #005695;
+}
+.offline:hover,
+.offline:active {
+  background: #88cbdf;
+  color: #262324;
+}
+.inactive {
+  background: #c80850;
+}
+.inactive:hover,
+.inactive:active {
+  background: #ebc9c3;
+  color: #262324;
+}
+a li:hover,
+a li:active {
+  margin-left: -60px;
+  border-left: solid 10px #262324;
+  margin-right: -20px;
+  border-right: solid 10px #262324;
+}
+a li:hover div img.logo {
+  border-radius: 10%;
+  border: solid 2px #262324;
+}
+.nav-center {
+  text-align: center;
+}
+.nav-center ul.nav {
+  display: inline-block;
+}
